@@ -43,7 +43,7 @@ windows = { version = "0.62", features = [
 
 [target.'cfg(not(target_os = "windows"))'.dependencies]
 arboard = "3"
-tao = "0.36"
+tao = "0.37"
 # linux-body passes fetch/XHR request bodies to custom protocol handlers on
 # WebKitGTK (Tauri enables the same feature); macOS bodies always flow. The
 # protocol_ring transport needs it so Linux hosts can serve POST invokes.
